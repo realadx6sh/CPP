@@ -3,16 +3,58 @@ using namespace std;
 
 int main()
 {
-    // Defining variable
-    // int age = 22; // <datatype> <variable_name> = <variable value>;
-    // cout << "Adarsh age is:" << age << endl;
+    /*
+        VARIABLE
 
-    // Declaring
-    // int age; // => If try to print a declared variable without initializing it we will get some random values which is called as garbage value (eg 6262552)
+        A variable is used to store data in memory.
 
-    // Declaring and initializing
-    int age = 22; // Note : we cant declare a variable of same name
-    cout << "The age is:" << age << endl;
+        Syntax:
+        <data_type> <variable_name> = <value>;
+    */
+
+    /*
+        VARIABLE DEFINITION
+
+        Here, the variable is created and assigned
+        a value at the same time.
+    */
+
+    // int age = 22;
+    // cout << "Adarsh age is: " << age << endl;
+
+    /*
+        VARIABLE DECLARATION
+
+        A variable can also be declared without
+        assigning a value initially.
+
+        Note:
+        Printing an uninitialized local variable
+        may produce a random value called
+        a "garbage value".
+    */
+
+    // int age;
+
+    /*
+        VARIABLE DECLARATION + INITIALIZATION
+
+        The variable is declared and assigned
+        a value together.
+    */
+
+    int age = 22;
+
+    /*
+        Displays the value stored in the variable.
+    */
+    cout << "The age is: " << age << endl;
+
+    /*
+        Note:
+        Two variables cannot have the same name
+        within the same scope.
+    */
 
     return 0;
 }
