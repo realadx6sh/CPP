@@ -4,7 +4,10 @@ using namespace std;
 int main()
 {
 
-    // Calculate percentage from 3 subjects
+    // =========================================
+    // QUESTION 1 : Calculate Percentage
+    // =========================================
+
     // int subject1, subject2, subject3, maximumMarks, obtainedMarks;
     // float percentage;
 
@@ -28,24 +31,41 @@ int main()
 
     // return 0;
 
-    // Input salary and compute yearly income
+    // =========================================
+    // QUESTION 2 : Compute Yearly Income
+    // =========================================
+
     // long long salary, income;
+
     // cout << "Enter your salary : ";
     // cin >> salary;
+
     // income = salary * 12;
+
     // cout << "Your yearly income is : " << income << endl;
+
     // return 0;
 
-    // Input product price and apply discount
+    // =========================================
+    // QUESTION 3 : Product Discount Calculator
+    // =========================================
+
     // float productPrice, discount;
+
     // cout << "Enter the product price : " << endl;
     // cin >> productPrice;
+
     // cout << "Enter the discount price : " << endl;
     // cin >> discount;
-    // cout << "Your product price after discount is : " << productPrice - discount << endl;
+
+    // cout << "Your product price after discount is : "
+    //      << productPrice - discount << endl;
+
     // return 0;
 
-    // Rectangle area and perimeter calculator
+    // =========================================
+    // QUESTION 4 : Rectangle Area and Perimeter
+    // =========================================
 
     // float length, width, area, perimeter;
 
@@ -63,7 +83,9 @@ int main()
 
     // return 0;
 
-    // Celsius to Fahrenheit converter
+    // =========================================
+    // QUESTION 5 : Celsius to Fahrenheit Converter
+    // =========================================
 
     // float celsius, fahrenheit;
 
