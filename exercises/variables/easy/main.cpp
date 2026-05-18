@@ -1,42 +1,88 @@
 #include <iostream>
 using namespace std;
 
-// Create variables for name, age, and city and print them
-// Store two numbers and print their sum
-// Store a character and display it
-// Create a boolean variable and print it
-// Store a float value and display it
+// =========================================
+// QUESTION 1 : Create Variables for
+//              Name, Age, and City
+//              and Print Them
+// =========================================
+
+// =========================================
+// QUESTION 2 : Store Two Numbers
+//              and Print Their Sum
+// =========================================
+
+// =========================================
+// QUESTION 3 : Store a Character
+//              and Display It
+// =========================================
+
+// =========================================
+// QUESTION 4 : Create a Boolean Variable
+//              and Print It
+// =========================================
+
+// =========================================
+// QUESTION 5 : Store a Float Value
+//              and Display It
+// =========================================
 
 int main()
 {
-    // Create variables for name, age, and city and print them
 
-    string name = "Adarsh", city = "Kottayam";
-    int age = 21;
+    // =========================================
+    // QUESTION 1 : Create Variables for
+    //              Name, Age, and City
+    //              and Print Them
+    // =========================================
 
-    cout << "My name is " << name << " , I am " << age << " years old, I am from " << city << "." << endl;
+    // string name = "Adarsh", city = "Kottayam";
+    // int age = 21;
 
-    // Store two numbers and print their sum
+    // cout << "My name is " << name
+    //      << " , I am " << age
+    //      << " years old, I am from "
+    //      << city << "." << endl;
 
-    int num1 = 10, num2 = 20;
+    // =========================================
+    // QUESTION 2 : Store Two Numbers
+    //              and Print Their Sum
+    // =========================================
 
-    cout << "The sum of two numbers is : " << num1 + num2 << endl;
+    // int num1 = 10, num2 = 20;
 
-    // Store a character and display it
+    // cout << "The sum of two numbers is : "
+    //      << num1 + num2 << endl;
 
-    char character = 'A';
-    cout << "The character is :" << character;
+    // =========================================
+    // QUESTION 3 : Store a Character
+    //              and Display It
+    // =========================================
 
-    // Create a boolean variable and print it
+    // char character = 'A';
 
-    bool isAdult = true;
-    cout << "My voting eligibility is : " << isAdult << endl; // 1 means true
+    // cout << "The character is : "
+    //      << character << endl;
 
-    // Store a float value and display it
+    // =========================================
+    // QUESTION 4 : Create a Boolean Variable
+    //              and Print It
+    // =========================================
 
-    float pi = 3.14;
+    // bool isAdult = true;
 
-    cout << "The value of pi is : " << pi;
+    // cout << "My voting eligibility is : "
+    //      << isAdult << endl; // 1 means true
 
-    return 0;
+    // =========================================
+    // QUESTION 5 : Store a Float Value
+    //              and Display It
+    // =========================================
+
+    // float pi = 3.14;
+
+    // cout << "The value of pi is : "
+    //      << pi << endl;
+
+    // return 0;
 }
