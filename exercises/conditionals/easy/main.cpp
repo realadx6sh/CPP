@@ -3,11 +3,16 @@ using namespace std;
 
 int main()
 {
-    // Check positive or negative number
+
+    // =========================================
+    // QUESTION 1 : Check Positive or Negative Number
+    // =========================================
 
     // int number;
-    // cout << "Enter a number to check its positive or negative : ";
+
+    // cout << "Enter a number to check positive or negative : ";
     // cin >> number;
+
     // if (number >= 0)
     // {
     //     cout << "The number is positive";
@@ -16,12 +21,18 @@ int main()
     // {
     //     cout << "The number is negative";
     // }
+
     // return 0;
 
-    // Check even or odd
+    // =========================================
+    // QUESTION 2 : Check Even or Odd Number
+    // =========================================
+
     // int number;
+
     // cout << "Enter a number to check odd or even : ";
     // cin >> number;
+
     // if (number % 2 == 0)
     // {
     //     cout << "The number is even";
@@ -31,9 +42,25 @@ int main()
     //     cout << "The number is odd";
     // }
 
-    // Check age ≥ 18
+    // return 0;
+
+    // =========================================
+    // QUESTION 3 : Check If Age is Eligible (18+)
+    // =========================================
 
     int age;
+
     cout << "Enter your age : ";
     cin >> age;
+
+    if (age >= 18)
+    {
+        cout << "You are eligible";
+    }
+    else
+    {
+        cout << "You are not eligible";
+    }
+
+    return 0;
 }
