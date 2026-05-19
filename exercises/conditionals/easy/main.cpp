@@ -48,18 +48,38 @@ int main()
     // QUESTION 3 : Check If Age is Eligible (18+)
     // =========================================
 
-    int age;
+    // int age;
 
-    cout << "Enter your age : ";
-    cin >> age;
+    // cout << "Enter your age : ";
+    // cin >> age;
 
-    if (age >= 18)
+    // if (age >= 18)
+    // {
+    //     cout << "You are eligible";
+    // }
+    // else
+    // {
+    //     cout << "You are not eligible";
+    // }
+
+    // return 0;
+
+    // =========================================
+    // QUESTION 4 : Check If Number is Greater Than 10
+    // =========================================
+
+    int number;
+
+    cout << "Enter a number : ";
+    cin >> number;
+
+    if (number > 10)
     {
-        cout << "You are eligible";
+        cout << "The number is greater than 10";
     }
     else
     {
-        cout << "You are not eligible";
+        cout << "The number is 10 or smaller";
     }
 
     return 0;
