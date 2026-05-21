@@ -76,29 +76,60 @@ int main()
     // =====================================================
 
     // Variable to store the year
-    //     int year;
+    // int year;
 
     // Ask the user to enter a year
-    //     cout << "Enter a year : ";
-    //     cin >> year;
+    // cout << "Enter a year : ";
+    // cin >> year;
 
     // Check whether the year is a leap year
-    //     if (year % 400 == 0)
-    //     {
-    //         cout << year << " is a leap year";
-    //     }
-    //     else if (year % 100 == 0)
-    //     {
-    //         cout << year << " is not a leap year";
-    //     }
-    //     else if (year % 4 == 0)
-    //     {
-    //         cout << year << " is a leap year";
-    //     }
-    //     else
-    //     {
-    //         cout << year << " is not a leap year";
-    //     }
-
-    //     return 0;
+    // if (year % 400 == 0)
+    // {
+    //     cout << year << " is a leap year";
     // }
+    // else if (year % 100 == 0)
+    // {
+    //     cout << year << " is not a leap year";
+    // }
+    // else if (year % 4 == 0)
+    // {
+    //     cout << year << " is a leap year";
+    // }
+    // else
+    // {
+    //     cout << year << " is not a leap year";
+    // }
+
+    // return 0;
+
+    // =====================================================
+    // QUESTION 4 : Salary Tax System
+    // =====================================================
+
+    // Variable to store salary
+    double salary;
+
+    // Ask the user to enter salary
+    cout << "Enter your salary : ";
+    cin >> salary;
+
+    // Check tax percentage based on salary
+    if (salary <= 250000)
+    {
+        cout << "No tax applicable";
+    }
+    else if (salary > 250000 && salary <= 500000)
+    {
+        cout << "Tax applicable is 5%";
+    }
+    else if (salary > 500000 && salary <= 1000000)
+    {
+        cout << "Tax applicable is 20%";
+    }
+    else
+    {
+        cout << "Tax applicable is 30%";
+    }
+
+    return 0;
+}
