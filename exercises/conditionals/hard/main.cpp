@@ -114,22 +114,36 @@ int main()
     cin >> salary;
 
     // Check tax percentage based on salary
-    if (salary <= 250000)
+    // if (salary <= 250000)
+    // {
+    //     cout << "No tax applicable";
+    // }
+    // else if (salary > 250000 && salary <= 500000)
+    // {
+    //     cout << "Tax applicable is 5%";
+    // }
+    // else if (salary > 500000 && salary <= 1000000)
+    // {
+    //     cout << "Tax applicable is 20%";
+    // }
+    // else
+    // {
+    //     cout << "Tax applicable is 30%";
+    // }
+
+    // return 0;
+
+    string username = "aadhi", password = "aadhi@2004";
+    cout << "Enter your username : ";
+    cin >> username;
+    cout << "Enter your password : ";
+    cin >> password;
+    if (username == "aadhi" && password == "aadhi@2004")
     {
-        cout << "No tax applicable";
-    }
-    else if (salary > 250000 && salary <= 500000)
-    {
-        cout << "Tax applicable is 5%";
-    }
-    else if (salary > 500000 && salary <= 1000000)
-    {
-        cout << "Tax applicable is 20%";
+        cout << "Authentication success";
     }
     else
     {
-        cout << "Tax applicable is 30%";
+        cout << "Authentication failed";
     }
-
-    return 0;
 }
